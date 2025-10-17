@@ -28,3 +28,18 @@ h2 {
   font-size: 1.5rem;
   font-style: italic;
 }
+
+.job-title {
+  color: darkslategray;
+  font-weight: bold;
+}
+
+a {
+  color: green;
+}
+
+a:hover,
+a:focus {
+  color: darkgreen;
+  text-decoration: none;
+}
