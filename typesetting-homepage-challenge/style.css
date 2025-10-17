@@ -63,3 +63,20 @@ p {
 section h2 + p {
   text-indent: 2rem;
 }
+
+a {
+  color: #aa6666;
+  text-decoration: underline;
+  outline: none;
+}
+
+a:visited {
+  color: #aa6666;
+}
+
+a:hover,
+a:focus {
+  color: #dd6666;
+  text-decoration: none;
+  outline: none;
+}
