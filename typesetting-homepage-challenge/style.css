@@ -10,6 +10,8 @@ body {
   min-width: 980px;
   max-width: 1400px;
   font-family: 'Merriweather', serif;
+  line-height: 1.6;
+  letter-spacing: 0.5px;
 }
 
 /* Layout */
@@ -37,12 +39,27 @@ footer p {
 
 h1 {
   font-family: 'Roboto Slab', serif;
+  font-size: 2.5rem;
+  text-align: center;
+  letter-spacing: 1px;
 } 
 
 h2 {
   font-family: 'Roboto Slab', serif;
+  font-size: 1.8rem;
+  margin-bottom: 0;
+  letter-spacing: 1px;
 }
 
 h3 {
   font-family: 'Roboto Slab', serif;
+}
+
+p {
+  font-size: 1rem;
+  margin: 1rem 0;
+}
+
+section h2 + p {
+  text-indent: 2rem;
 }
