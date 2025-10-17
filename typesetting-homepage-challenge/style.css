@@ -86,3 +86,16 @@ a[href*="http"] {
   background: url("external-link-52.png") no-repeat right center;
   background-size: 14px 14px;
 }
+
+ul,
+ol {
+  margin: 1rem 0;
+}
+
+ul {
+  list-style-type: square;
+}
+
+ol {
+  list-style-type: lower-roman;
+}
