@@ -9,6 +9,7 @@ body {
   padding: 0 20px;
   min-width: 980px;
   max-width: 1400px;
+  font-family: 'Merriweather', serif;
 }
 
 /* Layout */
@@ -32,4 +33,16 @@ footer {
 
 footer p {
   text-align: center;
+}
+
+h1 {
+  font-family: 'Roboto Slab', serif;
+} 
+
+h2 {
+  font-family: 'Roboto Slab', serif;
+}
+
+h3 {
+  font-family: 'Roboto Slab', serif;
 }
