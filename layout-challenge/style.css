@@ -60,3 +60,9 @@ nav a {
   float: left;
   margin: 8px 30px 20px 0;
 }
+
+.grid {
+  display: grid;
+  grid-template-columns: 3fr 1fr;
+  gap: 20px;
+}
