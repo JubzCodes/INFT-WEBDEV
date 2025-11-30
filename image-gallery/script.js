@@ -33,3 +33,9 @@ for (const image of images) {
     }
   });
 }
+
+function updateDisplayedImage(e) {
+  displayedImage.src = e.target.src;
+
+  displayedImage.alt = e.target.alt;
+}
