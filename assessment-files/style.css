@@ -220,6 +220,16 @@ audio {
   width: 150px;
 }
 
+.show-hide {
+  cursor: pointer;
+  font-size: 1.6rem;
+  padding: 0.5rem 1rem;
+}
+
+.show-hide:focus {
+  outline: 3px solid #000;
+}
+
 .comment-form input, .comment-form label, .show-hide {
   font-size: 1.6rem;
   line-height: 32px;
